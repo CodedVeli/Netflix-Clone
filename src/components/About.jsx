@@ -71,7 +71,7 @@ return (
             <div className=" lg:p-16 space-y-5 ">
             <p className=" text-white text-lg lg:text-2xl">Ready to watch? Enter your email to create or restart your membership.</p>
                 <div className="lg:flex  flex-row items-center lg:space-y-0 space-y-6 lg:gap-1 text-white">
-                    <input type="text" placeholder="Email address" className= " bg-transparent border-2 border-slate-400 lg:w-0 w-72 px-4 py-2 rounded-md" />
+                    <input type="text" placeholder="Email address" className= " bg-transparent border-2 border-slate-400 lg:w-auto w-72 px-4 py-2 rounded-md" />
                     <button className= " flex flex-row lg:ml-0 ml-12  gap-1 bg-red-600 text-white px-4 py-2 rounded-md ">Get Started <AiOutlineRight className=" mt-1"/></button>
 
                     </div>
