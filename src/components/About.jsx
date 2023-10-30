@@ -63,8 +63,8 @@ return (
 
     return (
          <div className=" bg-black">
-        <div className=" flex flex-col items-center justify-center p-10  lg:pr-80 lg:pl-80 space-y-3  text-2xl  text-white" >
-            <h1 className=" text-white lg:text-5xl text-3xl font-bold lg:mb-7">Frequently Asked Questions</h1>
+        <div className=" flex flex-col items-center justify-center p-10  lg:pr-80 lg:pl-80 space-y-3  lg:text-2xl  text-xl text-white" >
+            <h1 className=" text-white lg:text-5xl text-xl font-bold lg:mb-7">Frequently Asked Questions</h1>
             
             {renderedItems}
 
